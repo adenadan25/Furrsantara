@@ -286,6 +286,7 @@ footer p2{
         left: 6%;
         width: 330px;
         height: 130px;
+        position: absolute;
     }
     .card2{
         background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLNguT17M0Ew7ni6p9pSkLHn2qhWpiMk8nqD2QeRJT2SkmG_Pg8Nfrr3XG0kl47bWKwmE&usqp=CAU);
@@ -293,6 +294,7 @@ footer p2{
         left: 6%;
         width: 330px;
         height: 130px;
+        position: absolute;
     }
     .card3{
         background-image: url(https://s.france24.com/media/display/dacee8f0-9e4e-11ed-8d55-005056bfb2b6/w:1280/p:1x1/Loup_en_captivite_P.Massit.jpg);
@@ -300,6 +302,7 @@ footer p2{
         left: 6%;
         width: 330px;
         height: 130px;
+        position: absolute;
     }
     .card4{
         background-image: url(https://www.hcn.org/issues/40.20/still-howling-wolf/01300-12810.jpg/image);
@@ -307,6 +310,7 @@ footer p2{
         left: 6%;
         width: 330px;
         height: 130px;
+        position: absolute;
     }
     footer p{
         position: absolute;
