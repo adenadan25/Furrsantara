@@ -1,4 +1,4 @@
-body{
+body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.041),rgba(0, 0, 0, 0.041)), url(https://t3.ftcdn.net/jpg/04/12/82/16/360_F_412821610_95RpjzPXCE2LiWGVShIUCGJSktkJQh6P.jpg);
@@ -7,12 +7,15 @@ body{
     background-attachment: fixed;
     animation: transitionIn 0.75s;
     height: -webkit-fill-available;
-}*{
     margin: 0;
     padding: 0;
 }
-html{
+html {
     height: -webkit-fill-available;
+    scroll-behavior: smooth;
+}*{
+    margin: 0;
+    padding: 0;
 }
 header, footer{
     position: absolute;
