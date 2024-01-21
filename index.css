@@ -203,7 +203,7 @@ footer p2{
         transform: translateY(0)
     }
 }
-@media screen and (max-width: 600px)
+@media screen and (max-width: 450px)
 {
     h1{
         font-size: 36px;
