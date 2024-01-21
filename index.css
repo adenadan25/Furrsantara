@@ -1,0 +1,317 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.041),rgba(0, 0, 0, 0.041)), url(https://t3.ftcdn.net/jpg/04/12/82/16/360_F_412821610_95RpjzPXCE2LiWGVShIUCGJSktkJQh6P.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: transitionIn 0.75s;
+}*{
+    margin: 0;
+    padding: 0;
+}
+header, footer{
+    position: absolute;
+    width: 100%;
+}
+header h2{
+    position: absolute;
+    margin-top: 18px;
+    left: 2%;
+}
+header{
+    height: 10vh;
+    color: rgb(248, 29, 29);
+}
+footer{
+    height: 10vh;
+    bottom: 0;
+    color: rgb(248, 29, 29);
+}
+footer h2{
+    position: absolute;
+    left: 45%;
+}
+.nav{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.nav a{
+    position: relative;
+    left: 325%;
+    top: 25px;
+    color: rgb(248, 29, 29);
+    text-decoration: none;
+    margin-right: 35px;
+}
+.nav a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: rgb(248, 29, 29);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.nav a:hover::after{
+    width: 100%;
+}
+.logo{
+    position: fixed;
+    height: auto;
+    top: 15px;
+    left: 15px;
+    width: 100px;
+}
+footer p{
+    position: absolute;
+    left: 45%;
+    bottom: -660px;
+}
+footer p2{
+    position: absolute;
+    left: 90%;
+    bottom: -680px;
+}
+.container{
+    position: absolute;
+    top: 135%;
+    left: 20%;
+    width: 820px;
+    height: 205px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+}
+.title{
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: rgb(248, 29, 29);
+    font-size: 50px;
+}
+.title1 h1{
+    position: absolute;
+    color: rgb(248, 29, 29);
+    font-size: 53px;
+    top: 115%;
+    left: 15%;
+}
+.title p{
+    color: rgb(248, 29, 29);
+    left: 50%;
+    transform: translate(25%,25%);
+}
+.button{
+    position: absolute;
+    top: 180%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+}
+.button h1{
+    color: rgb(248, 29, 29);
+    position: absolute;
+    left: 15%;
+    top: -210%;
+    font-size: 18px;
+}
+.btn{
+    border: 1px solid;
+    padding: 5px 20px;
+    color: rgb(248, 29, 29);
+    transition: 0,5 ease;
+    font-size: 18px;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: rgb(248, 29, 29);
+    color: aliceblue;
+    transition: 0.5s;
+}
+.card{
+    position: absolute;
+    top: -345%;
+    left: 120%;
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+   
+    background-position: center;
+    background-size: cover;
+    color: white;
+    transition: 0.5s;
+}
+.card1{
+    background-image: url(https://media.istockphoto.com/id/182717613/photo/wolf-snarl.jpg?s=612x612&w=0&k=20&c=wugconPviJeNe31O-orP6h9TfeTRyBG-YPKt5PX9xwM=);
+    top: 13%;
+    left: 60%;
+    width: 450px;
+    height: 230px;
+}
+.card2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLNguT17M0Ew7ni6p9pSkLHn2qhWpiMk8nqD2QeRJT2SkmG_Pg8Nfrr3XG0kl47bWKwmE&usqp=CAU);
+    top: 13%;
+    left: 10%;
+    width: 450px;
+    height: 230px;
+}
+.card3{
+    background-image: url(https://s.france24.com/media/display/dacee8f0-9e4e-11ed-8d55-005056bfb2b6/w:1280/p:1x1/Loup_en_captivite_P.Massit.jpg);
+    top: 58%;
+    left: 10%;
+    width: 450px;
+    height: 230px;
+}
+.card4{
+    background-image: url(https://www.hcn.org/issues/40.20/still-howling-wolf/01300-12810.jpg/image);
+    top: 58%;
+    left: 60%;
+    width: 450px;
+    height: 230px;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.scroll-bar{
+    overflow: auto;
+    height: 100%;
+    border: 0px solid;
+}
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: translateY(-10px)
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+@media screen and (max-width: 600px)
+{
+    h1{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    header h2{
+        position: absolute;
+        margin-top: 15px;
+        left: 5%;
+    }
+    .title1 h1{
+        font-size: 25px;
+        left: 14%;
+        top: 90%;
+    }
+    .title{
+        left: 50%;
+        top: 115%;
+    }
+    .title p{
+        left: 20%;
+        transform: translate(0%,0%);
+        margin-top: 25px;
+    }
+    .nav{
+        list-style: none;
+        display: inline-block;
+        margin: 0 20px;
+        position: relative;
+    }
+    .nav a{
+        position: relative;
+        left: 13%;
+        top: 60px;
+        color: rgb(248, 29, 29);
+        text-decoration: none;
+        margin-right: 35px;
+    }
+    .button{
+        position: absolute;
+        top: 132%;
+        left: 20%;
+        transform: translate(0%,0%);
+    }
+    .container{
+        position: absolute;
+        top: 105%;
+        left: 10%;
+        width: 330px;
+        height: 180px;
+        background: transparent;
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        border-radius: 20px;
+        backdrop-filter: blur(15px);
+    }
+    .card{
+        position: absolute;
+        top: -580%;
+        left: -50%;
+        width: 340px;
+        height: 130px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+       
+        background-position: center;
+        background-size: cover;
+        color: white;
+        transition: 0.5s;
+    }
+    .card1{
+        background-image: url(https://media.istockphoto.com/id/182717613/photo/wolf-snarl.jpg?s=612x612&w=0&k=20&c=wugconPviJeNe31O-orP6h9TfeTRyBG-YPKt5PX9xwM=);
+        top: 10%;
+        left: 6%;
+        width: 330px;
+        height: 130px;
+    }
+    .card2{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLNguT17M0Ew7ni6p9pSkLHn2qhWpiMk8nqD2QeRJT2SkmG_Pg8Nfrr3XG0kl47bWKwmE&usqp=CAU);
+        top: 28%;
+        left: 6%;
+        width: 330px;
+        height: 130px;
+    }
+    .card3{
+        background-image: url(https://s.france24.com/media/display/dacee8f0-9e4e-11ed-8d55-005056bfb2b6/w:1280/p:1x1/Loup_en_captivite_P.Massit.jpg);
+        top: 46%;
+        left: 6%;
+        width: 330px;
+        height: 130px;
+    }
+    .card4{
+        background-image: url(https://www.hcn.org/issues/40.20/still-howling-wolf/01300-12810.jpg/image);
+        top: 64%;
+        left: 6%;
+        width: 330px;
+        height: 130px;
+    }
+    footer p{
+        position: absolute;
+        left: 35%;
+        top: 590px;
+    }
+    footer p2{
+        position: absolute;
+        left: 2%;
+        top: 613px;
+    }
+    footer{
+        bottom: -100px;
+    }
+}

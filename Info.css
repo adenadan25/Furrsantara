@@ -1,0 +1,135 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.041),rgba(0, 0, 0, 0.041)), url(https://t3.ftcdn.net/jpg/04/12/82/16/360_F_412821610_95RpjzPXCE2LiWGVShIUCGJSktkJQh6P.jpg);
+    background-size: cover;
+    background-position: center;
+    animation: transitionIn 0.75s;
+}*{
+    margin: 0;
+    padding: 0;
+}
+header, footer{
+    position: absolute;
+    width: 100%;
+}
+header h2{
+    position: absolute;
+    margin-top: 18px;
+    left: 2%;
+}
+header{
+    height: 10vh;
+    color: rgb(248, 29, 29);
+}
+footer{
+    height: 10vh;
+    bottom: 0;
+    color: rgb(248, 29, 29);
+}
+footer h2{
+    position: absolute;
+    left: 45%;
+}
+.nav{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.nav a{
+    position: relative;
+    left: 325%;
+    top: 25px;
+    color:  rgb(248, 29, 29);
+    text-decoration: none;
+    margin-right: 35px;
+}
+.nav a::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background:  rgb(248, 29, 29);
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.nav a:hover::after{
+    width: 100%;
+}
+.logo{
+    position: fixed;
+    height: auto;
+    top: 15px;
+    left: 15px;
+    width: 100px;
+}
+footer p{
+    position: absolute;
+    left: 45%;
+    bottom: 20px;
+}
+footer p2{
+    position: absolute;
+    left: 90%;
+    bottom: 8px;
+}
+.title{
+    position: absolute;
+    top: 47%;
+    left: 34%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: rgb(248, 29, 29);
+    font-size: 50px;
+}
+.title p{
+    color: rgb(248, 29, 29);
+}
+.title p1{
+    color: rgb(248, 29, 29);
+}
+.container{
+    position: absolute;
+    top: 16%;
+    left: 3%;
+    width: 830px;
+    height: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+}
+.card1{
+    position: absolute;
+    top: 3%;
+    left: 62%;
+    width: 400px;
+    height: 430px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px 15px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 80px 50px;
+    background-image: url(https://img.apmcdn.org/8740e63882c1e613786ee7f86b4d07a6bb58936d/uncropped/d30b16-capitol-view-files-2019-04-ap17292719642901.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(248, 29, 29);
+    transition: 0.5s;
+}
+.card1:hover{
+    transform: translateY(-10px);
+}
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: translateY(-10px)
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
