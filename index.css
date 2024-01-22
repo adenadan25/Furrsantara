@@ -220,11 +220,11 @@ footer p2{
     .title1 h1{
         font-size: 25px;
         left: 14%;
-        top: 90%;
+        top: 110%;
     }
     .title{
         left: 50%;
-        top: 115%;
+        top: 140%;
     }
     .title p{
         left: 20%;
@@ -247,13 +247,13 @@ footer p2{
     }
     .button{
         position: absolute;
-        top: 132%;
+        top: 165%;
         left: 20%;
         transform: translate(0%,0%);
     }
     .container{
         position: absolute;
-        top: 105%;
+        top: 128%;
         left: 10%;
         width: 330px;
         height: 180px;
@@ -282,7 +282,7 @@ footer p2{
     }
     .card1{
         background-image: url(https://media.istockphoto.com/id/182717613/photo/wolf-snarl.jpg?s=612x612&w=0&k=20&c=wugconPviJeNe31O-orP6h9TfeTRyBG-YPKt5PX9xwM=);
-        top: 10%;
+        top: 12%;
         left: 6%;
         width: 330px;
         height: 130px;
@@ -290,7 +290,7 @@ footer p2{
     }
     .card2{
         background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLNguT17M0Ew7ni6p9pSkLHn2qhWpiMk8nqD2QeRJT2SkmG_Pg8Nfrr3XG0kl47bWKwmE&usqp=CAU);
-        top: 28%;
+        top: 33%;
         left: 6%;
         width: 330px;
         height: 130px;
@@ -298,7 +298,7 @@ footer p2{
     }
     .card3{
         background-image: url(https://s.france24.com/media/display/dacee8f0-9e4e-11ed-8d55-005056bfb2b6/w:1280/p:1x1/Loup_en_captivite_P.Massit.jpg);
-        top: 46%;
+        top: 54%;
         left: 6%;
         width: 330px;
         height: 130px;
@@ -306,7 +306,7 @@ footer p2{
     }
     .card4{
         background-image: url(https://www.hcn.org/issues/40.20/still-howling-wolf/01300-12810.jpg/image);
-        top: 64%;
+        top: 76%;
         left: 6%;
         width: 330px;
         height: 130px;
@@ -315,12 +315,12 @@ footer p2{
     footer p{
         position: absolute;
         left: 35%;
-        top: 590px;
+        top: 760px;
     }
     footer p2{
         position: absolute;
         left: 2%;
-        top: 613px;
+        top: 790px;
     }
     footer{
         bottom: -100px;
