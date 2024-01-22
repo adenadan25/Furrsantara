@@ -1,5 +1,5 @@
 body {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Poppins', sans-serif;
     height: 100vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.041),rgba(0, 0, 0, 0.041)), url(https://t3.ftcdn.net/jpg/04/12/82/16/360_F_412821610_95RpjzPXCE2LiWGVShIUCGJSktkJQh6P.jpg);
     background-size: cover;
@@ -47,7 +47,7 @@ footer h2{
 }
 .nav a{
     position: relative;
-    left: 325%;
+    left: 289%;
     top: 25px;
     color: rgb(248, 29, 29);
     text-decoration: none;
