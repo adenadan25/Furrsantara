@@ -4,6 +4,7 @@ body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.041),rgba(0, 0, 0, 0.041)), url(https://t3.ftcdn.net/jpg/04/12/82/16/360_F_412821610_95RpjzPXCE2LiWGVShIUCGJSktkJQh6P.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     animation: transitionIn 0.75s;
 }*{
     margin: 0;
