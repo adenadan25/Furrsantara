@@ -60,6 +60,7 @@ footer h2{
 .nav{
     list-style: none;
     display: inline-block;
+    text-wrap: nowrap;
     right: 1%;
     margin: auto;
     position: relative;
