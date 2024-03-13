@@ -28,7 +28,7 @@ header{
     align-items: center;
     justify-content: space-between;
     flex-wrap: nowrap;
-    height: 10vh;
+    height: 50px;
     color: rgb(255, 255, 255);
     background-color: rgb(248, 29, 29);
     border-radius: 20px;
@@ -59,7 +59,8 @@ footer h2{
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin: auto 10px;
-
+    text-align: right;
+    font-size: clamp(2px, 3vw, 20px)
 }
 .nav a::after{
     content: '';
