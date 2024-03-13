@@ -27,7 +27,7 @@ header h2{
     margin: auto;
     text-align: center;
     float: left;
-    left: 20px;
+    left: 1%;
     font-family: 'Helvetica Neue', sans-serif;
     letter-spacing: 2px;
     font-weight: 500;
@@ -69,7 +69,7 @@ footer h2{
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin: auto 10px;
-    font-size: clamp(0px, 5vw, 20px)
+    font-size: clamp(0px, 3vw, 20px)
 }
 .nav a::after{
     content: '';
