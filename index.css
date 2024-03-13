@@ -22,8 +22,7 @@ header, footer{
     width: 100%;
 }
 .menutitle{
-    display: flex;
-    align-items: center;
+    margin: auto;
 }
 header h2{
     position: absolute;
