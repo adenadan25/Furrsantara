@@ -25,7 +25,7 @@ header, footer{
     margin: auto;
 }
 header h2{
-    position: absolute;
+    position: relative;
     margin: auto;
     text-align: center;
     left: 20px;
