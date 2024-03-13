@@ -31,7 +31,7 @@ header h2{
     font-family: 'Helvetica Neue', sans-serif;
     letter-spacing: 2px;
     font-weight: 500;
-    font-size: clamp(0px, 5vw, 20px)
+    font-size: clamp(3px, 5vw, 20px)
 }
 header{
     display: flex;
@@ -70,7 +70,7 @@ footer h2{
     text-decoration: none;
     margin: auto 10px;
     text-align: right;
-    font-size: clamp(0px, 3vw, 20px)
+    font-size: clamp(2px, 3vw, 20px)
 }
 .nav a::after{
     content: '';
