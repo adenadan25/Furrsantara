@@ -23,14 +23,24 @@ header, footer{
 }
 header h2{
     position: absolute;
-    margin-top: 18px;
-    left: 2%;
+    margin: auto;
+    text-align: center;
+    top: 1.5vh;
+    left: 20px;
+    font-family: 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 500;
 }
 header{
-    height: 10vh;
+    height: 50px;
     color: rgb(255, 255, 255);
     background-color: rgb(248, 29, 29);
     border-radius: 20px;
+    margin: auto;
+    position: relative;
+    margin-top: 1%;
+    width: 95%;
+    filter: drop-shadow(0 1mm 4mm rgba(255, 49, 49, 0.795));
 }
 footer{
     height: 10vh;
@@ -47,19 +57,26 @@ footer h2{
     margin: 0 20px;
     position: relative;
 }
+.nav{
+    list-style: none;
+    display: inline-block;
+    float: right;
+    right: 1%;
+    top: 15px;
+    margin: auto;
+    position: relative;
+}
 .nav a{
     position: relative;
-    left: 289%;
-    top: 25px;
-    color: rgb(248, 29, 29);
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    margin-right: 35px;
+    margin: auto 10px;
 }
 .nav a::after{
     content: '';
     height: 3px;
     width: 0;
-    background: rgb(248, 29, 29);
+    background: rgb(255, 255, 255);
     position: absolute;
     left: 0;
     bottom: -10px;
