@@ -27,7 +27,6 @@ header h2{
     margin: auto;
     text-align: left;
     width: 20%;
-    height: 5%;
     float: left;
     left: 1%;
     font-family: 'Helvetica Neue', sans-serif;
@@ -62,6 +61,7 @@ footer h2{
     list-style: none;
     display: inline-block;
     right: 1%;
+    height: 5%;
     margin: auto;
     position: relative;
 }
