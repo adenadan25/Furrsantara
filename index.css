@@ -24,8 +24,6 @@ header, footer{
 
 header h2{
     position: relative;
-    margin: auto;
-    text-align: left;
     float: left;
     left: 1%;
     font-family: 'Helvetica Neue', sans-serif;
@@ -68,8 +66,6 @@ footer h2{
     position: relative;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    margin: auto 10px;
-    text-align: right;
     font-size: clamp(0px, 3vw, 20px)
 }
 .nav a::after{
