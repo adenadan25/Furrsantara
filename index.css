@@ -25,11 +25,12 @@ header h2{
     position: absolute;
     margin: auto;
     text-align: center;
-    top: 1.5vh;
+    top: 1.7vh;
     left: 20px;
     font-family: 'Helvetica Neue', sans-serif;
     letter-spacing: 2px;
     font-weight: 500;
+    font-size: clamp(0px, 8vw, 100px)
 }
 header{
     height: 50px;
