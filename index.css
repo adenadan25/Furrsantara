@@ -59,9 +59,10 @@ footer h2{
 .nav{
     list-style: none;
     display: inline-block;
-    float: right;
+    text-align: right;
     right: 1%;
     margin: auto;
+    width: 25%;
     position: relative;
 }
 .nav a{
