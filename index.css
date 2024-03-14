@@ -56,16 +56,17 @@ footer h2{
 }
 .nav{
     list-style: none;
-    display: inline-block;
-    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
     position: relative;
     right: 5vw;
+    gap: 3vw;
 }
 .nav a{
     position: relative;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    text-align: right;
+    text-align: center;
     font-size: clamp(3px, 3vw, 20px);
 }
 .nav a::after{
