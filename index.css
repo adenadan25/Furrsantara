@@ -65,7 +65,6 @@ footer h2{
     position: relative;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    margin: 3vw;
     text-align: right;
     font-size: clamp(3px, 3vw, 20px);
 }
