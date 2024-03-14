@@ -159,6 +159,14 @@ footer p2{
     color: aliceblue;
     transition: 0.5s;
 }
+.maindesc{
+  align-items: center;
+  height: 70vh;
+}
+.maindesc img{
+  width: 20%;
+  height: 20%;
+}
 .card{
     position: absolute;
     top: -345%;
