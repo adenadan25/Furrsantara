@@ -24,6 +24,7 @@ header, footer{
 
 header h2{
     position: relative;
+    left: 5vw;
     font-family: 'Helvetica Neue', sans-serif;
     letter-spacing: 2px;
     font-weight: 500;
@@ -58,6 +59,7 @@ footer h2{
     display: inline-block;
     white-space: nowrap;
     position: relative;
+    right: 5vw;
 }
 .nav a{
     position: relative;
