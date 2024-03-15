@@ -98,7 +98,7 @@ footer p2{
 }
 .maindesc{
     align-items: center;
-    height: 70vh;
+    height: clamp(100px, 75vh, 600px);
     margin: auto;
     width: fit-content;
 }
@@ -126,21 +126,47 @@ footer p2{
     letter-spacing: 2px;
 }
 .card{
+    height: clamp(150px, 75vh,300px);
     align-items: center;
     margin: auto;
     width: fit-content;
+    gap: 5vw;
+    text-indent: 2vw;
 }
 .card > *{
-  background-color: red;
-  border-radius: 20px;
-  width: 30vw;
-  height: 30vh;
-  margin: auto;
+    background-color: red;
+    border-radius: 10px;
+    width: clamp(100px,25vw, 300px);
+    height: clamp(25px, 60vh, 200px);
+    margin: auto;
+    opacity: 80%;
+    transition: .5s;
+
+    &:hover{
+        opacity: 100%;
+        transform: translateY(-35px);
+    }
 }
-.card > * > *{
-  margin: auto;
-  text-align: center;
+.card > * *{
+    margin: auto;
+    height: 15%;
+    text-align: center;
+    padding-top: 20px;
+    color: aliceblue;
 }
+.card > * h3{
+    font-size: clamp(10px, 4vw, 20px);
+    font-family: Coolvetica,sans-serif;
+    font-weight: 100;
+}
+.card > * p{
+    height: 10%;
+    max-width: 90%;
+    font-size: clamp(5px, 2vw, 15px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+}
+.sos
 .sosmed{
     position: relative;
     margin: auto;
