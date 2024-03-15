@@ -130,6 +130,17 @@ footer p2{
     margin: auto;
     width: fit-content;
 }
+.card > *{
+  background-color: red;
+  border-radius: 20px;
+  width: 30vw;
+  height: 30vh;
+  margin: auto;
+}
+.card > * > *{
+  margin: auto;
+  text-align: center;
+}
 .sosmed{
     position: relative;
     margin: auto;
@@ -157,7 +168,6 @@ footer p2{
     transition: 0,5 ease;
     font-size: 18px;
     text-decoration: none;
-    margin: auto;
 }
 .sosmed a:hover{
     background-color: rgb(248, 29, 29);
