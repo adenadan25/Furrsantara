@@ -164,58 +164,10 @@ footer p2{
   height: 70vh;
 }
 .maindesc img{
-  width: 20%;
-  height: 20%;
+  width: 64px;
+  height: 64px;
 }
-.card{
-    position: absolute;
-    top: -345%;
-    left: 120%;
-    width: 200px;
-    height: 230px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 15px 25px;
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 10px 15px;
-   
-    background-position: center;
-    background-size: cover;
-    color: white;
-    transition: 0.5s;
-}
-.card1{
-    background-image: url(https://media.istockphoto.com/id/182717613/photo/wolf-snarl.jpg?s=612x612&w=0&k=20&c=wugconPviJeNe31O-orP6h9TfeTRyBG-YPKt5PX9xwM=);
-    top: 12%;
-    left: 58%;
-    width: 450px;
-    height: 230px;
-}
-.card2{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLNguT17M0Ew7ni6p9pSkLHn2qhWpiMk8nqD2QeRJT2SkmG_Pg8Nfrr3XG0kl47bWKwmE&usqp=CAU);
-    top: 12%;
-    left: 8%;
-    width: 450px;
-    height: 230px;
-}
-.card3{
-    background-image: url(https://s.france24.com/media/display/dacee8f0-9e4e-11ed-8d55-005056bfb2b6/w:1280/p:1x1/Loup_en_captivite_P.Massit.jpg);
-    top: 58%;
-    left: 8%;
-    width: 450px;
-    height: 230px;
-}
-.card4{
-    background-image: url(https://www.hcn.org/issues/40.20/still-howling-wolf/01300-12810.jpg/image);
-    top: 58%;
-    left: 58%;
-    width: 450px;
-    height: 230px;
-}
-.card:hover{
-    transform: translateY(-10px);
-}
+
 .scroll-bar{
     overflow: auto;
     height: 100%;
@@ -286,56 +238,6 @@ footer p2{
         border: 2px solid rgba(255, 255, 255, 0.5);
         border-radius: 20px;
         backdrop-filter: blur(15px);
-    }
-    .card{
-        position: absolute;
-        top: -580%;
-        left: -50%;
-        width: 340px;
-        height: 130px;
-        display: inline-block;
-        border-radius: 10px;
-        padding: 15px 25px;
-        box-sizing: border-box;
-        cursor: pointer;
-        margin: 10px 15px;
-       
-        background-position: center;
-        background-size: cover;
-        color: white;
-        transition: 0.5s;
-    }
-    .card1{
-        background-image: url(https://media.istockphoto.com/id/182717613/photo/wolf-snarl.jpg?s=612x612&w=0&k=20&c=wugconPviJeNe31O-orP6h9TfeTRyBG-YPKt5PX9xwM=);
-        top: 12%;
-        left: 6%;
-        width: 330px;
-        height: 130px;
-        position: absolute;
-    }
-    .card2{
-        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLNguT17M0Ew7ni6p9pSkLHn2qhWpiMk8nqD2QeRJT2SkmG_Pg8Nfrr3XG0kl47bWKwmE&usqp=CAU);
-        top: 33%;
-        left: 6%;
-        width: 330px;
-        height: 130px;
-        position: absolute;
-    }
-    .card3{
-        background-image: url(https://s.france24.com/media/display/dacee8f0-9e4e-11ed-8d55-005056bfb2b6/w:1280/p:1x1/Loup_en_captivite_P.Massit.jpg);
-        top: 54%;
-        left: 6%;
-        width: 330px;
-        height: 130px;
-        position: absolute;
-    }
-    .card4{
-        background-image: url(https://www.hcn.org/issues/40.20/still-howling-wolf/01300-12810.jpg/image);
-        top: 76%;
-        left: 6%;
-        width: 330px;
-        height: 130px;
-        position: absolute;
     }
     footer p{
         position: absolute;
