@@ -1,15 +1,4 @@
-body {
-    font-family: 'Poppins', sans-serif;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.041),rgba(0, 0, 0, 0.041)), url(https://t3.ftcdn.net/jpg/04/12/82/16/360_F_412821610_95RpjzPXCE2LiWGVShIUCGJSktkJQh6P.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    animation: transitionIn 0.75s;
-    height: -webkit-fill-available;
-    margin: 0;
-    padding: 0;
-}
+
 html {
     height: -webkit-fill-available;
     scroll-behavior: smooth;
@@ -160,14 +149,34 @@ footer p2{
     transition: 0.5s;
 }
 .maindesc{
-  align-items: center;
-  height: 70vh;
+    align-items: center;
+    height: 70vh;
+    margin: auto;
+    width: fit-content;
 }
 .maindesc img{
-  width: 64px;
-  height: 64px;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-right: auto;
 }
-
+.maindesc div{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.maindesc div h1{
+    font-size: clamp(3px, 5vw, 100px);
+    color: rgb(248, 29, 29);
+    font-family: Coolvetica, sans-serif;
+    font-weight: 100;
+}
+.maindesc div p{
+    font-size: clamp(2px, 5vw, 20px);
+    color: rgb(182, 182, 182);
+    font-family: Coolvetica,sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
 .scroll-bar{
     overflow: auto;
     height: 100%;
