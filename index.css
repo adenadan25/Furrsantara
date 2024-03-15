@@ -126,6 +126,7 @@ footer p2{
     letter-spacing: 2px;
 }
 .card{
+    background-color: rgb(248, 29, 29);
     height: clamp(150px, 75vh,300px);
     align-items: center;
     margin: auto;
@@ -134,7 +135,9 @@ footer p2{
     text-indent: 2vw;
 }
 .card > *{
-    background-color: red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0 0mm 8mm rgba(0, 0, 0, 0.575));
     border-radius: 10px;
     width: clamp(100px,25vw, 300px);
     height: clamp(25px, 60vh, 200px);
@@ -153,6 +156,7 @@ footer p2{
     text-align: center;
     padding-top: 20px;
     color: aliceblue;
+    filter: drop-shadow(0 0mm 2mm rgb(0, 0, 0));
 }
 .card > * h3{
     font-size: clamp(10px, 4vw, 20px);
@@ -165,6 +169,15 @@ footer p2{
     font-size: clamp(5px, 2vw, 15px);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 200;
+}
+#card1{
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.493),rgba(0,0,0,0)), url(https://i.pinimg.com/736x/ab/79/b4/ab79b453d569dff0bec04186c029238e.jpg);
+}
+#card2{
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.493),rgba(0,0,0,0)), url(https://i.pinimg.com/736x/4e/a0/41/4ea0414284121ad3d1b12f315dd717cc.jpg);
+}
+#card3{
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.493),rgba(0,0,0,0)), url(https://dthezntil550i.cloudfront.net/8x/latest/8x2104122343255330006111621/d2044b07-aea6-430a-a67f-123172750e05.png);
 }
 .sosmed{
     position: relative;
