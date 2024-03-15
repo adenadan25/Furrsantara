@@ -129,6 +129,15 @@ footer p{
     width: 100%;
     height: fit-content;
 }
+.content h1{
+    margin: auto;
+    padding-top: 5vh;
+    text-align: center;
+    font-family: Coolvetica,sans-serif;
+    font-weight: 100;
+    color: aliceblue;
+
+}
 .card{
     height: clamp(150px, 75vh,300px);
     align-items: center;
