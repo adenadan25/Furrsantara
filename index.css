@@ -97,7 +97,7 @@ footer p{
 }
 .maindesc{
     align-items: center;
-    height: clamp(100px, 75vh, 600px);
+    height: clamp(100px, 75svh, 600px);
     margin: auto;
     width: fit-content;
 }
@@ -139,7 +139,7 @@ footer p{
 
 }
 .card{
-    height: clamp(150px, 75vh,300px);
+    height: clamp(150px, 75svh,300px);
     align-items: center;
     margin: auto;
     width: fit-content;
@@ -151,8 +151,8 @@ footer p{
     background-size: cover;
     filter: drop-shadow(0 0mm 8mm rgba(0, 0, 0, 0.575));
     border-radius: 10px;
-    width: clamp(100px,25vw, 300px);
-    height: clamp(25px, 60vh, 200px);
+    width: clamp(75px,25svw, 300px);
+    height: clamp(25px, 60svh, 200px);
     margin: auto;
     opacity: 80%;
     transition: .5s;
