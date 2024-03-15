@@ -80,6 +80,7 @@ footer{
 }
 .nav a:hover::after{
     width: 100%;
+    cursor: pointer;
 }
 .logo{
     position: fixed;
@@ -150,6 +151,7 @@ footer p{
     &:hover{
         opacity: 100%;
         transform: translateY(-35px);
+        cursor: pointer;
     }
 }
 .card > * *{
@@ -218,6 +220,7 @@ footer p{
     background-color: rgb(248, 29, 29);
     color: aliceblue;
     transition: 0.5s;
+    cursor: pointer;
 }
 @keyframes transitionIn{
     from{
