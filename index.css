@@ -46,14 +46,12 @@ header{
     filter: drop-shadow(0 1mm 4mm rgba(255, 49, 49, 0.795));
 }
 footer{
-    height: 10vh;
+    height: 5vh;
+    padding-top: 5vh;
+    margin: auto;
     color: rgb(248, 29, 29);
     display: flex;
     justify-content: space-between;
-}
-footer h2{
-    position: absolute;
-    left: 45%;
 }
 .nav{
     list-style: none;
@@ -92,9 +90,9 @@ footer h2{
 }
 footer p{
     position: relative;
-}
-footer p2{
-    position: relative;
+    font-family: Coolvetica, sans-serif;
+    font-weight: 100;
+    font-size: clamp(10px, 4vw, 20px);
 }
 .maindesc{
     align-items: center;
@@ -125,8 +123,12 @@ footer p2{
     font-weight: 100;
     letter-spacing: 2px;
 }
-.card{
+.content{
     background-color: rgb(248, 29, 29);
+    width: 100%;
+    height: fit-content;
+}
+.card{
     height: clamp(150px, 75vh,300px);
     align-items: center;
     margin: auto;
@@ -182,8 +184,9 @@ footer p2{
 .sosmed{
     position: relative;
     margin: auto;
+    height: 15vh;
+    padding-top: 5vh;
     width: fit-content;
-    transform: translate(-50%,-50%);
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -199,6 +202,7 @@ footer p2{
     font-size: 18px;
 }
 .sosmed a{
+    flex: 1 1 auto;
     border: 1px solid;
     border-radius: 20px;
     padding: 5px 20px;
