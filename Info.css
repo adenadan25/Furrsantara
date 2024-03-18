@@ -82,14 +82,14 @@ header{
     width: 100px;
 }
 footer p{
-    position: absolute;
+    position: relative;
     left: 45%;
-    bottom: 20%;
+    bottom: 20px;
 }
 footer p2{
-    position: absolute;
+    position: relative;
     left: 90%;
-    bottom: 0%;
+    bottom: 0px;
 }
 .bawahan{
     position: absolute;
