@@ -53,6 +53,12 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+.maindesc{
+    align-items: center;
+    height: clamp(100px, 75svh, 600px);
+    margin: auto;
+    width: fit-content;
+}
 .nav{
     list-style: none;
     display: flex;
@@ -90,7 +96,7 @@ footer{
     width: 100px;
 }
 footer p{
-    position: relative;
+    position: absolute;
     font-family: Coolvetica, sans-serif;
     font-weight: 100;
     font-size: clamp(10px, 4vw, 20px);
