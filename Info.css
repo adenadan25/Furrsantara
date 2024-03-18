@@ -53,14 +53,6 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-.maindesc{
-    align-items: center;
-    height: clamp(100px, 75svh, 600px);
-    margin: auto;
-    width: fit-content;
-    font-family: 'Helvetica Neue', sans-serif;
-    color: rgb(255, 255, 255);
-}
 .nav{
     list-style: none;
     display: flex;
