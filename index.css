@@ -13,7 +13,6 @@
 html{
     height: -webkit-fill-available;
     scroll-behavior: smooth;
-    animation: transitionIn 0.75s;
 }*{
     margin: 0;
     padding: 0;
