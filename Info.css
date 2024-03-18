@@ -59,18 +59,18 @@ footer h2{
 }
 .nav{
     list-style: none;
-    display: inline-block;
-    right: 1%;
-    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
     position: relative;
+    right: 5vw;
+    gap: 2vw;
 }
 .nav a{
     position: relative;
     color: rgb(255, 255, 255);
     text-decoration: none;
-    margin: auto 10px;
-    text-align: right;
-    font-size: clamp(2px, 3vw, 20px);
+    text-align: center;
+    font-size: clamp(3px, 3vw, 15px);
 }
 .nav a::after{
     content: '';
@@ -84,6 +84,7 @@ footer h2{
 }
 .nav a:hover::after{
     width: 100%;
+    cursor: pointer;
 }
 .logo{
     position: fixed;
