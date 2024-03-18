@@ -45,6 +45,13 @@ header{
     width: 95%;
     filter: drop-shadow(0 1mm 4mm rgba(255, 49, 49, 0.795));
 }
+footer{
+    height: 5vh;
+    padding-top: 5vh;
+    margin: auto;
+    color: rgb(248, 29, 29);
+    display: flex;
+    justify-content: space-between;
 .nav{
     list-style: none;
     display: flex;
@@ -83,11 +90,13 @@ header{
 }
 footer p{
     position: relative;
+    font-family: Coolvetica, sans-serif;
     left: 45%;
     bottom: 20px;
 }
 footer p2{
     position: relative;
+    font-family: Coolvetica, sans-serif;
     left: 90%;
     bottom: 0px;
 }
