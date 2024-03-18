@@ -54,7 +54,7 @@ footer{
     justify-content: space-between;
 }
 .maindesc{
-    top: 25%;
+    align-items: center;
     height: clamp(100px, 75svh, 600px);
     margin: auto;
     width: fit-content;
@@ -132,6 +132,7 @@ footer p{
 }
 .card1{
     position: absolute;
+    font-family: 'Helvetica Neue', sans-serif;
     top: 3%;
     left: 66%;
     width: 350px;
