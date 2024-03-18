@@ -54,7 +54,7 @@ footer{
     justify-content: space-between;
 }
 .maindesc{
-    align-items: left;
+    top: 25%;
     height: clamp(100px, 75svh, 600px);
     margin: auto;
     width: fit-content;
