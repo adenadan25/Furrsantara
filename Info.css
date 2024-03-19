@@ -13,6 +13,7 @@
 html{
     height: -webkit-fill-available;
     scroll-behavior: smooth;
+    animation: transitionIn 0.75s;
 }*{
     margin: 0;
     padding: 0;
@@ -53,9 +54,87 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-.desc{
-    font-family: Coolvetica, sans-serif;
+.maindesc{
+    align-items: center;
+    height: clamp(100px, 75svh, 600px);
+    margin: auto;
+    width: fit-content;
+}
+.maindesc div{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.maindesc div h1{
+    font-size: clamp(3px, 5vw, 100px);
     color: rgb(248, 29, 29);
+    font-family: Coolvetica, sans-serif;
+    font-weight: 100;
+}
+.maindesc div p{
+    font-size: clamp(2px, 5vw, 20px);
+    color: rgb(182, 182, 182);
+    font-family: Coolvetica,sans-serif;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+.content{
+    background-color: rgb(248, 29, 29);
+    width: 100%;
+    height: fit-content;
+}
+.desc1 div{
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 30vh;
+}
+.desc1 h1{
+    margin: auto;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    
+    text-align: center;
+    font-family: Coolvetica,sans-serif;
+    font-weight: 100;
+    color: aliceblue;
+}
+.desc1 p{
+    margin: auto;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+   
+    text-align: center;
+    font-family: Coolvetica,sans-serif;
+    font-weight: 100;
+    color: aliceblue;
+    font-size: 4vh;
+}
+.desc2 div{
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 25vh;
+}
+.desc2 h2{
+    margin: auto;
+    padding-top: 5vh;
+    padding-bottom: 3vh;
+    font-size: 5vh;
+    text-align: center;
+    font-family: Coolvetica,sans-serif;
+    font-weight: 100;
+    color: rgb(248, 29, 29);
+}
+.desc2 p{
+    margin: auto;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
+   
+    text-align: center;
+    font-family: Coolvetica,sans-serif;
+    font-weight: 100;
+    color: rgb(248, 29, 29);
+    font-size: 4vh;
 }
 .nav{
     list-style: none;
@@ -114,39 +193,6 @@ footer p{
 }
 .bawahan p1{
     color: rgb(248, 29, 29);
-}
-.container{
-    position: absolute;
-    top: 16%;
-    left: 3%;
-    width: 830px;
-    height: 420px;
-    background: transparent;
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    border-radius: 20px;
-    backdrop-filter: blur(15px);
-}
-.card1{
-    position: absolute;
-    font-family: 'Helvetica Neue', sans-serif;
-    top: 3%;
-    left: 66%;
-    width: 350px;
-    height: 428px;
-    display: inline-block;
-    border-radius: 10px;
-    padding: 10px 15px;
-    box-sizing: border-box;
-    cursor: pointer;
-    margin: 80px 50px;
-    background-image: url(https://img.apmcdn.org/8740e63882c1e613786ee7f86b4d07a6bb58936d/uncropped/d30b16-capitol-view-files-2019-04-ap17292719642901.jpg);
-    background-position: center;
-    background-size: cover;
-    color: rgb(248, 29, 29);
-    transition: 0.5s;
-}
-.card1:hover{
-    transform: translateY(-10px);
 }
 @keyframes transitionIn{
     from{
