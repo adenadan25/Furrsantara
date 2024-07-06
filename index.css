@@ -185,10 +185,12 @@ footer p{
     font-weight: 200;
 }
 #card1{
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.493),rgba(0,0,0,0)), url(https://i.pinimg.com/736x/ab/79/b4/ab79b453d569dff0bec04186c029238e.jpg);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.493),rgba(0,0,0,0)), url(https://i.pinimg.com/564x/03/dd/0b/03dd0b57605da20e2a14f9d552c4e69b.jpg);
+    /* https://i.pinimg.com/736x/ab/79/b4/ab79b453d569dff0bec04186c029238e.jpg */
 }
 #card2{
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.493),rgba(0,0,0,0)), url(https://i.pinimg.com/736x/4e/a0/41/4ea0414284121ad3d1b12f315dd717cc.jpg);
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.493),rgba(0,0,0,0)), url(https://i.pinimg.com/736x/e7/e3/35/e7e335b5292d556292366d4a82a576ac.jpg);
+    /* https://i.pinimg.com/736x/4e/a0/41/4ea0414284121ad3d1b12f315dd717cc.jpg */
 }
 #card3{
     background-image: linear-gradient(to top, rgba(255, 255, 255, 0.493),rgba(0,0,0,0)), url(https://dthezntil550i.cloudfront.net/8x/latest/8x2104122343255330006111621/d2044b07-aea6-430a-a67f-123172750e05.png);
